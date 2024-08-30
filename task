@@ -1,3 +1,5 @@
-- Buatlah halaman profile user
-- Buat tampilan profile semenarik mungkin
-- gunakan API dari https://dummyjson.com/docs/users#users-single untuk get data user
+- Buatlah halaman login user
+- Buat tampilan login semenarik mungkin
+- gunakan API dari https://dummyjson.com/docs/users#users-login untuk get data user
+- Pastikan terdapat validasi/alert jika belum mengisi username/password
+- setelah berhasil login alihkan ke halaman home

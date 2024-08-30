@@ -1,5 +1,5 @@
-- Buatlah halaman login user
-- Buat tampilan login semenarik mungkin
-- gunakan API dari https://dummyjson.com/docs/users#users-login untuk get data user
-- Pastikan terdapat validasi/alert jika belum mengisi username/password
-- setelah berhasil login alihkan ke halaman home
+- Buatlah halaman home yang menampilkan daftar product
+- Buat tampilan home semenarik mungkin
+- gunakan API dari https://dummyjson.com/docs/products untuk get data products
+- Buat popup yang berisi form untuk mengedit nama product dengan API https://dummyjson.com/docs/products#products-update
+- Buat popup untuk menghapus product degan API https://dummyjson.com/docs/products#products-delete

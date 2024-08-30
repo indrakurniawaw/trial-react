@@ -1,3 +1,11 @@
-- Buatlah halaman profile user
-- Buat tampilan profile semenarik mungkin
+- Buatlah halaman login user
+- Buat tampilan login semenarik mungkin
 - gunakan API dari https://dummyjson.com/docs/users#users-single untuk get data user
+- Buatlah form untuk edit data user dengan API https://dummyjson.com/docs/users#users-update
+- Data yang diedit :
+  "firstName"
+  "lastName"
+  "maidenName"
+  "age"
+  "gender"
+  "email"

@@ -43,7 +43,7 @@ export const Login = () => {
   return (
     <div className="card">
       <h1>Login</h1>
-      {error && <Alert color="danger">{error}</Alert>}
+     
       <Form onSubmit={handleSubmit}>
         <FormGroup>
           <Label for="username">Username</Label>
@@ -67,6 +67,7 @@ export const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </FormGroup>
+        {error && <Alert color="danger">{error}</Alert>}
         <FormGroup check inline>
           <Label check>
             <Input type="checkbox" /> Remember me
@@ -75,10 +76,6 @@ export const Login = () => {
         <Button color="primary">
           Login {isLoggedIn && <Link to="/home">Login</Link>}
         </Button>
-        {/* <p class="signup-link">
-          No account?
-          <a href="">Sign up</a>
-        </p> */}
       </Form>
     </div>
   );

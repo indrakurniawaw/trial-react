@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -7,14 +7,15 @@ export const Home = () => {
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users").then((response) => {
-      setTimeout(() => {
-        navigate("/");
-      }, 2000);
+      
     });
   }, []);
   return (
     <div>
       <h1>Home</h1>
+      <Link to="/profile">
+        <button>go profile</button>
+      </Link>
     </div>
   );
 };

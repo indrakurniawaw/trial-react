@@ -108,6 +108,7 @@
   cursor: pointer;
   transition: transform 0.5s;
   font: bold;
+  margin-right: 5px;
 }
 .edit-form button:hover {
   transform: scale(1.1);
@@ -115,4 +116,18 @@
 
 .edit-form button:active {
   transform: scale(0.9);
+}
+.edit-modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+}
+.edit-modal-overlay {
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
